@@ -42,7 +42,7 @@
 }
 
 .header__link {
-  color: blue;
+  color: #2f80ed;
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
@@ -68,7 +68,7 @@
   position: absolute;
   right: 0;
   top: 64px;
-  background-color: blue;
+  background-color: #2f80ed;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -94,3 +94,63 @@
   left: 64px;
 }
 
+.two-columns {
+  width: 80%;
+  min-width: 784px;
+  border: 2px solid red;
+  height: 400px;
+  display: flex;
+  
+  
+}
+
+.two-columns__brief {
+  width: 175px;
+  border: 1px solid red;
+}
+
+.two-columns_empty {
+  width: 40px;
+  border: 1px solid red;
+}
+
+.two-columns__main-text {
+width: 100%;
+display: flex;
+flex-direction: column;
+
+}
+
+.two-columns__paragraph {
+  height: 200px;
+  border: 1px solid red;
+}
+
+.two-columns__span-accent {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 1px solid rebeccapurple;
+  height: 100px;
+  
+}
+
+.two-columns__span-accent_text {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.two-columns__title {
+  margin: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.two-columns_paragraph_text {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0;
+}
