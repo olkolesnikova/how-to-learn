@@ -304,7 +304,7 @@ flex-direction: column;
   color: white;
   margin-right: 0;
   margin-top: 80px;
-  z-index: ;
+  
 }
 
 .section-title_theme_dark {
@@ -318,8 +318,6 @@ flex-direction: column;
 .table_theme_dark {
   background-color: #1f1f1f;
   color: white;
-  
-  
 }
 
 .table__heading_theme_dark {
@@ -338,4 +336,97 @@ flex-direction: column;
   height: 877px;
   background-image: url(../images/kaufman-triangle.svg);
   
+}
+
+.footer {
+  width: 90%;
+  background-color: #1f1f1f;
+  display: flex;
+  margin: 0 auto;
+  min-height: 350px;
+  justify-content: space-between;
+}
+
+.footer__columns {
+  background-color: #1f1f1f;
+  display: flex;
+  width: 100%;
+}
+
+.footer__column {
+  display: flex;
+}
+
+.footer__column_content_copyright {
+  width: 711px;
+  
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo_place_footer {
+  background-image: url(../images/logo_place_footer.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer__author {
+  display: flex;
+  margin: 0 auto 18px 0;
+}
+
+.footer__author_text {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #f2f2f2;
+}
+
+.footer__column_content_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding-right: 200px;
+}
+
+.footer__column_heading_text {
+  color: #f2f2f2;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.footer__column-links {
+  padding-top: 20px;
+}
+
+.footer__column-links_text {
+  color: #f2f2f2;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column_content_social {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  
+}
+
+.footer__column-link {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  padding-right: 10px;
+  display: flex;
+  margin: 0 auto;
 }
