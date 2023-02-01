@@ -116,6 +116,7 @@
 }
 
 .two-columns__paragraph {
+  margin: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -348,15 +349,20 @@
   justify-content: start;
 }
 
-.footer__column-link {
+.footer__column-links {
   list-style: none;
   list-style-type: none;
   padding: 0;
   margin: 0;
   padding-top: 20px;
+  padding-bottom: 16px;
+}
+
+.footer__column-link {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  text-decoration: none;
   color: white;
 }
 
