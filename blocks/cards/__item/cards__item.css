@@ -1,0 +1,9 @@
+.cards__item {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+  }
+
+.cards__item:last-of-type {
+    transform: translateX(-340px);
+  }  

@@ -1,3 +1,12 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .rotation {
     height: 568px;
     width: 568px;
@@ -6,5 +15,4 @@
     top: 64px;
     background-color: #2f80ed;
     animation: rotation 20s ease-in-out 1s infinite backwards;
-    
-  }
+}

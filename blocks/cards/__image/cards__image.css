@@ -1,0 +1,9 @@
+.cards__image {
+    margin: 0;
+    width: 160px;
+    height: 160px;
+    flex-wrap: wrap;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 60px 40px 43px 40px;
+}
