@@ -1,7 +1,7 @@
 .resources__link {
     margin: 0;
-    padding-top: 80px;
-    padding-bottom: 217px;
+    margin-top: 80px;
+    margin-bottom: 217px;
     opacity: 1;
     transition: opacity .2s;
 }
